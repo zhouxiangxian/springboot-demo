@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: product
+---
+spring:
+  thymeleaf:
+    suffix: .htm
+  messages:
+    basename: i18n/Messages,i18n/Pages
+  profiles: dev
+server:
+  port: 8080
+---
+spring:
+  thymeleaf:
+    suffix: .htm
+  messages:
+    basename: i18n/Messages,i18n/Pages
+  profiles: beta
+server:
+  port: 9090
+---
+spring:
+  thymeleaf:
+    suffix: .htm
+  messages:
+    basename: i18n/Messages,i18n/Pages
+  profiles: product
+server:
+  port: 80

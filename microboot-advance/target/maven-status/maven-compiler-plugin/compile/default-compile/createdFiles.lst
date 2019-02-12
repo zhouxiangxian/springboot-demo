@@ -1,0 +1,7 @@
+cn\mldn\microboot\service\IMessageService.class
+cn\mldn\microboot\util\controller\AbstractBaseController.class
+cn\mldn\microboot\StartSpringBootMain.class
+cn\mldn\microboot\controller\MessageController.class
+cn\mldn\microboot\controller\HelloController.class
+cn\mldn\microboot\config\ServiceConfig.class
+cn\mldn\microboot\service\impl\MessageServiceImpl.class
